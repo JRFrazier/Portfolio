@@ -13,7 +13,7 @@
 }
 
 h1 {
-    font-family: Times;
+   font-family: 'Fugaz One', cursive;;
     font-weight: bold;
 }
 
@@ -29,14 +29,21 @@ h1 {
     color: #444948; 
     margin-bottom: 10 px;
 }
-
+.intro {
+    margin-top: 10em;
+    position: relative;
+    text-align: center;
+    color: dimgrey;
+    text-shadow: 5px 5px 5px black;
+}
 .headshot {
-     width: 20%;
-    height: 10%;
+     width: 10em;
+    height: 10em;
+    display: block;
     margin: auto;
-    margin-top: 13px;
-    margin-left: 15px;
-    border-radius: 50%;
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px black;
+    position: relative;
 }
 #main-text {
    width: 100%;
@@ -44,15 +51,16 @@ h1 {
    top: 400px;
    background: white;
    height: 1500px;
+   margin-top: 10em;
 }
 
 
 li{
     margin-right: 50px;
 }
-#main-text{
+/*#main-text{
     margin-top: 10em;
-}
+}*/
 ul.nav li a, ul.nav li a:visited {
     color: grey !important;
 }
