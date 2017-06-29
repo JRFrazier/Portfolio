@@ -1,25 +1,5 @@
-h1 {
-    font-family: Times;
-    font-weight: bold;
-}
-#banner {
-    background: black url(mountain-top1.jpeg);
-    background-position: center;
-    background-size: 2000px 500px;
-    width: 100%;
-    height: 500px;
-    position: fixed;
-    top: 50px;
-    color: #444948; 
-    margin-bottom: 10 px;
-}
-#main-text {
-   width: 100%;
-   position: relative;
-   top: 400px;
-   background: white;
-   height: 1500px;
-}
+/* nav bar*/
+
 .navbrand {
     color: white;
     margin-left: 80px;
@@ -31,6 +11,41 @@ h1 {
     margin-right: 50px;
     font-size: 20px;
 }
+
+h1 {
+    font-family: Times;
+    font-weight: bold;
+}
+
+/*banner area */
+#banner {
+    background: black url(pixel_mountain.png);
+    background-position: center;
+    background-size: 2000px 600px;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 50px;
+    color: #444948; 
+    margin-bottom: 10 px;
+}
+
+.headshot {
+     width: 20%;
+    height: 10%;
+    margin: auto;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+#main-text {
+   width: 100%;
+   position: relative;
+   top: 400px;
+   background: white;
+   height: 1500px;
+}
+
 
 li{
     margin-right: 50px;
