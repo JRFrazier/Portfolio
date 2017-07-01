@@ -52,4 +52,11 @@ font-size: 160%;
 text-align: center;
 }
 
+/* Media Styles */
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
 
