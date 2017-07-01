@@ -1,5 +1,7 @@
 /* nav bar*/
-
+#nav {
+     z-index:9999;
+}
 .navbrand {
     font-family: 'Press Start 2P', cursive;
     font-size: 140%;
@@ -11,10 +13,6 @@
     margin-top: 5px;
     margin-right: 50px;
     font-size: 20px;
-}
-h1 {
-   font-family: 'Philosopher', sans-serif;
-    font-weight: bold;
 }
 li{
     margin-right: 30px;
