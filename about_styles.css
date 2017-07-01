@@ -1,0 +1,7 @@
+/* main body */
+#main-text > h1 {
+font-family: 'Press Start 2P', cursive;
+font-size: 160%;
+text-align: center;
+padding-top: 5em;
+}
