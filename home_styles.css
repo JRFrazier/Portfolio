@@ -12,14 +12,14 @@
 /* nav bar affix */
 
 /*banner area */
-#banner {
-    background: black url(pixel_mountain.png);
-    background-position: center;
-    background-size: 2000px 600px;
+      #banner {
+    background: url(pixel_mountain.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     width: 100%;
-    height: 500px;
-    top: 50px; 
-    margin-bottom: 10 px;
+    height: 40em;
 }
 #banner-text {
     font-family: 'Press Start 2P', cursive;
@@ -58,5 +58,4 @@ text-align: center;
     display: none;
   }
 }
-
 
