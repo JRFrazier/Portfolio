@@ -80,6 +80,15 @@ ul.nav li a:hover, ul.nav li a:active {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
+#part-one {
+    background: url(part-one.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 35em;
+    margin-bottom: 2em;
+}
 .intro {
     margin-top: 20em;
     position: relative;
