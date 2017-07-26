@@ -4,6 +4,14 @@
     display: none;
   }
 }*/
+#blog-main{
+    background-image: url(pixel-castle.png);
+     background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
 .page-header{
     font-family: 'Press Start 2P', cursive;
     padding-top: 2em;
@@ -13,6 +21,5 @@
     margin-top:2%;
     height: 100%;
     background-color: white;
-    box-shadow: 10px 10px 5px #888888;
-    
+    box-shadow: 10px 10px 5px #888888;  
 }
