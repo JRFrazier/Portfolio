@@ -17,10 +17,9 @@
 }
 .navbrand {
     font-family: 'Press Start 2P', cursive;
-    font-size: 140%;
+    font-size: 100%;
     color: white;
-    margin-left: 80px;
-    
+    margin-left: 5em;
 }
 .nav{
     margin-top: 10px;
@@ -80,16 +79,6 @@ ul.nav li a:hover, ul.nav li a:active {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
-#part-one {
-    background: url(part-one.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    height: 35em;
-    margin-top: 30em;
-    margin-bottom: 2em;
-}
 .intro {
     margin-top: 20em;
     position: relative;
@@ -98,9 +87,9 @@ ul.nav li a:hover, ul.nav li a:active {
 }
 
 /* main body */
-#main-text > h1 {
+h2 {
 font-family: 'Press Start 2P', cursive;
-font-size: 160%;
+font-size: 140%;
 text-align: center;
 }
 
@@ -110,4 +99,14 @@ text-align: center;
     display: none;
   }
 }
-
+.page-header{
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+.blog-post {
+    margin-top:2%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;  
+}
