@@ -89,10 +89,28 @@ ul.nav li a:hover, ul.nav li a:active {
 /* main body */
 h2 {
 font-family: 'Press Start 2P', cursive;
-font-size: 140%;
+font-size: 190%;
 text-align: center;
 }
-
+p {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: large;
+    margin-top: 50px;
+}
+#welcome {
+    margin-top: 50px;
+}
+#blog-main {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog-img { 
+    width:100%; 
+}
 /* Media Styles */
 @media (max-width: 600px) {
   .facet_sidebar {
@@ -105,8 +123,9 @@ text-align: center;
     padding-left: 1em;
 }
 .blog-post {
+    border-color: black;
     margin-top:2%;
     height: 100%;
-    background-color: white;
-    box-shadow: 10px 10px 5px #888888;  
+    background-color: #90A8C1;
+    box-shadow: 10px 10px 5px #888888; 
 }
